@@ -16,7 +16,7 @@ import { ItemsComponent } from './items/items.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ItemService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

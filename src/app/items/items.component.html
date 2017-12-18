@@ -1,7 +1,11 @@
-<p>
-  Item List
-</p>
 
-<ul class="items">
-  <li *ngFor="let item of items">{{ item.title }}</li>
-</ul>
+<div class="card">
+  <p>
+    Item List
+  </p>
+
+  <ul class="items">
+    <li *ngFor="let item of items">{{ item.title }}</li>
+    <li *ngFor="let item of items">{{ item.cost }}</li>
+  </ul>
+<div>
